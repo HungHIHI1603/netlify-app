@@ -1,0 +1,14 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+    /* Bạn có thể thêm màu sắc hoặc font chữ ở đây */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
