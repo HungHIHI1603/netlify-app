@@ -1,14 +1,16 @@
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    text-align: center;
-    /* Bạn có thể thêm màu sắc hoặc font chữ ở đây */
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
 }
 
-h1 {
-    color: #333;
+.content {
+    width: 50%;
+}
+
+.avatar-box img {
+    width: 300px;
+    border-radius: 10px;
 }
